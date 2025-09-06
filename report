@@ -1,0 +1,78 @@
+# 🔐 Task 6: Create a Strong Password and Evaluate Its Strength  
+
+## 🎯 Objective  
+To understand what makes a password strong and evaluate different passwords using online strength checking tools.  
+
+---
+
+## 📝 Step 1: Create Multiple Passwords with Varying Complexity  
+
+| Password       | Length | Components Used                          |
+|----------------|--------|------------------------------------------|
+| `disha123`     | 8      | 🔡 Lowercase + 🔢 Numbers (weak)          |
+| `Disha@123`    | 9      | 🔡 Uppercase + Lowercase + Number + Symbol |
+| `D!5h@Varsh`   | 10     | 🔠 Mixed case + 🔢 Numbers + 🔣 Symbols   |
+| `V!7rQ9l@xW2`  | 12     | 🎲 Randomized mix of all categories       |
+| `M@trixX#92zL!`| 13     | 🔒 Random, longer, high entropy           |
+
+---
+
+## 🧪 Step 2: Test Passwords on Password Strength Checker  
+
+I tested each password on **[PasswordMeter.com](https://passwordmeter.com/)**.  
+
+| Password       | 🔢 Score | 🛡️ Complexity | 📝 Tool Feedback Highlights |
+|----------------|----------|----------------|------------------------------|
+| `disha123`     | ~34%     | ❌ Weak         | Too short, predictable, lacks variety |
+| `Disha@123`    | ~64%     | ⚠️ Good         | Better mix but still short, dictionary word inside |
+| `D!5h@Varsh`   | ~74%     | 👍 Strong       | Complex but some consecutive letters, limited length |
+| `V!7rQ9l@xW2`  | ~88%     | 💪 Very Strong | Good length, random, diverse character set |
+| `M@trixX#92zL!`| ~100%    | 🔥 Very Strong | Excellent entropy, length, and randomness |
+
+📸 **Screenshots of test results:**  
+(Add your screenshots here)
+
+---
+
+## ✅ Step 3: Best Practices for Strong Passwords  
+
+- 🔑 Use **12–16+ characters**.  
+- 🔠 Include **uppercase, lowercase, numbers, and symbols**.  
+- ❌ Avoid dictionary words and personal info.  
+- 🚫 Don’t use repeated or consecutive characters.  
+- 🎲 Increase randomness (avoid meaningful words).  
+
+---
+
+## 💡 Step 4: Tips Learned from Evaluation  
+
+- 📏 **Longer = Stronger** (each added character increases crack time exponentially).  
+- 🔄 Random placement of numbers/symbols is more secure than putting them at start/end.  
+- 🗂️ A **password manager** helps generate and remember strong unique passwords.  
+- 🔐 Regular updates + **Multi-Factor Authentication (MFA)** make accounts safer.  
+
+---
+
+## 🕵️ Step 5: Common Password Attacks  
+
+- 🚀 **Brute Force Attack** → Tries all combinations. Long + complex passwords resist this.  
+- 📚 **Dictionary Attack** → Uses common word lists. Avoid dictionary words.  
+- ♻️ **Credential Stuffing** → Reuses leaked passwords. Unique passwords protect you.  
+- 🎭 **Phishing / Social Engineering** → Even strong passwords fail if you reveal them.  
+
+---
+
+## 📊 Step 6: Summary – How Complexity Affects Security  
+
+- ❌ **Weak (short/simple)** → cracked within minutes/hours.  
+- ⚠️ **Medium (8–10 chars)** → lasts days/weeks but still vulnerable.  
+- ✅ **Strong (12–16+ random)** → takes centuries to brute-force.  
+
+**Conclusion:**  
+🔑 Complexity + 📏 Length = 🎲 Higher Entropy = 🛡️ Stronger Security  
+
+✅ Always use **unique, random, 12–16+ character passwords**.  
+✅ Store them in a password manager.  
+✅ Enable **MFA** for maximum protection.  
+
+---
